@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 16px;
+            margin-left: 15%;
+            margin-right: 15%;
+            line-height: 1.4;
+        }
+
+        .menu-item {
+            padding: 0 20px;
+            text-decoration: none;
+            color: black;
+            font-size: x-large;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+
+        .logo {
+            padding-left: 20px;
+            height: 70px;
+        }
+
+        .footer {
+            background-color: lightblue;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 10px;
+        }
+
+        .container {
+            padding: 30px 0;
+        }
+
+        .item {
+            margin: 20px 0;
+        }
+
+        .txt-input {
+            width: 200px;
+        }
+
+        .comment{
+            width: 350px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: lightblue; padding: 15px 2px; border-radius: 10px;">
+        <img src="./assets/logo-cn.png" class="logo" />
+        <a href="index.html" class="menu-item">HOME</a>
+        <a href="about.html" class="menu-item">ABOUT</a>
+        <a href="portfolio.html" class="menu-item">PORFOLIO</a>
+        <a href="contact.html" class="menu-item">CONTACT</a>
+    </div>
+
+    <div class="container">
+        <div class="item">
+            <fieldset>
+                <legend>
+                    Your Details
+                </legend>
+                <p>
+                    <label>Name:</label>
+                    <input class="txt-input" type="text" />
+                </p>
+                <p>
+                    <label>Email:</label>
+                    <input class="txt-input" type="text" />
+                </p>
+            </fieldset>
+        </div>
+        <div class="item">
+            <fieldset>
+                <legend>
+                    Your Review
+                </legend>
+                <div>
+                    <label>How did you hear about us:</label>
+                    <select name="state" id="stateOption">
+                        <option>Georgia</option>
+                        <option>New Jersey</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Would you visit again?:</p>
+                    <input type="radio" name="visit" value="yes" />
+                    <label  for="yes">Yes</label>
+                    <input type="radio" name="visit" value="no" />
+                    <label  for="no">No</label>
+                    <input type="radio" name="visit" value="maybe" />
+                    <label  for="maybe">May be</label>
+                </div>
+                <div>
+                    <p>Comments</p>
+                    <textarea rows="3" class="comment"></textarea> 
+                </div>
+                <div>
+                    <input type="checkbox"/>
+                    <span>Sign me up for Email Address</span>
+                </div>
+                <input type="submit" value="Submit"/>
+            </fieldset>
+        </div>
+        <div class="item"> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212645.5223860971!2d72.9460234681563!3d33.616037297297396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfd07891722f%3A0x6059515c3bdb02b6!2sIslamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2sus!4v1610180338539!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+
+    <div class="footer">
+        Copyright &copy 2020. All rights reserved.
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 16px;
+            margin-left: 15%;
+            margin-right: 15%;
+            line-height: 1.4;
+        }
+
+        .menu-item {
+            padding: 0 20px;
+            text-decoration: none;
+            color: black;
+            font-size: x-large;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+
+        .logo{
+            padding-left: 20px;
+            height: 70px;
+        }
+
+        .footer{
+            background-color: lightblue; text-align: center; padding: 5px 0; border-radius: 10px;
+        }
+
+        .container{
+            padding:10px;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        .image{
+            width:30%;
+        }
+
+        .image>img{
+            max-width: 300px;
+            height: auto;
+        }
+
+        .desc {
+            width: 70%;
+        }
+
+        .desc>p{
+            margin-top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: lightblue; padding: 15px 2px; border-radius: 10px;">
+        <img src="./assets/logo-cn.png" class="logo"/>
+        <a href="index.html" class="menu-item">HOME</a>
+        <a href="about.html" class="menu-item">ABOUT</a>
+        <a href="portfolio.html" class="menu-item">PORFOLIO</a>
+        <a href="contact.html" class="menu-item">CONTACT</a>
+    </div>
+    <div class="container">
+        <div class="image">
+            <img src="./assets/cncf.png" class="logo"/>
+        </div>
+        <div class="desc">
+           <p> 
+               <strong>As of February 28, 2019</strong>, containerd is officially a graduated project within the Cloud Native Computing Foundation, following Kubernetes, Prometheus, Envoy, and CoreDNS. We'd like to thank the amazing containerd community for making this all possible and we're excited for the future of the project.
+           </p>
+        </div>
+        <div class="image">
+            <img src="./assets/fluentd-logo_2x.png" class="logo"/>
+        </div>
+        <div class="desc">
+            <p> 
+                <strong>Fluentd</strong> is an open source data collector, which lets you unify the data collection and consumption for a better use and understanding of data.
+            </p>
+           </div>
+    </div>
+    <div class="footer">
+        Copyright &copy 2020. All rights reserved.
+    </div>
+</body>
+</html>

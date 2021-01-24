@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 16px;
+            margin-left: 15%; 
+            margin-right: 15%;
+            line-height: 1.4;
+        }
+        .multiline-ellipsis {
+            display: block;
+            display: -webkit-box;
+            margin: 0 auto;
+            
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .clamp-10 {
+            height: 220px;
+            -webkit-line-clamp: 10;
+        }
+
+        .clamp-3 {
+            height: 70px;
+            -webkit-line-clamp: 3;
+        }
+
+        .cncf-items {
+            line-height: 1.4;
+            padding-left: 20px;
+        }
+
+        .logo{
+            padding-left: 20px;
+            height: 70px;
+        }
+
+        .menu-item {
+            padding: 0 20px;
+            text-decoration: none;
+            color: black;
+            font-size: x-large;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: lightblue; padding: 15px 2px; border-radius: 10px;">
+        <img src="./assets/logo-cn.png" class="logo"/>
+        <a href="index.html" class="menu-item">HOME</a>
+        <a href="about.html" class="menu-item">ABOUT</a>
+        <a href="portfolio.html" class="menu-item">PORFOLIO</a>
+        <a href="contact.html" class="menu-item">CONTACT</a>
+    </div>
+    <div style="padding: 15px 0; display: flex;">
+        <div style="flex: 3; ">
+            <p class="multiline-ellipsis clamp-10">
+                The Cloud Native Computing Foundation (CNCF) hosts critical components of the global technology
+                infrastructure. CNCF brings together the world’s top developers, end users, and vendors and runs the
+                largest open source developer conferences. CNCF is part of the nonprofit Linux Foundation.
+
+                CNCF serves as the vendor-neutral home for many of the fastest-growing open source projects, including
+                Kubernetes, Prometheus, and Envoy.
+
+                CNCF collaborates with more than 550 members, including all of the world’s largest cloud computing and
+                software companies, as well as over 200 innovative startups. Join your peers in helping build and shape
+                the cloud native ecosystem.
+
+                CNCF’s End User Community includes over 140 top companies and startups that depend on cloud native
+                technologies and are committed to collaborative infrastructure development. The End User Community is an
+                active participant in key technology decisions by CNCF-hosted projects.
+
+                Dave Zolotusky of Spotify and Alena Prokharchyk of Apple are the End User representatives to the
+                Technical Oversight Committee.
+
+            </p>
+        </div>
+        <div style="flex: 1;">
+            <img src="./assets/profile-image.jpeg" style="height: 215px; border-radius: 20px;" />
+        </div>
+    </div>
+    <div>
+        <p class="multiline-ellipsis clamp-3">
+            The Cloud Native Computing Foundation (CNCF) hosts critical components of the global technology
+            infrastructure. CNCF brings together the world’s top developers, end users, and vendors and runs the largest
+            open source developer conferences. CNCF is part of the nonprofit Linux Foundation.
+
+            CNCF serves as the vendor-neutral home for many of the fastest-growing open source projects, including
+            Kubernetes, Prometheus, and Envoy.
+
+            CNCF collaborates with more than 550 members, including all of the world’s largest cloud computing and
+            software companies, as well as over 200 innovative startups. Join your peers in helping build and shape the
+            cloud native ecosystem.
+
+            CNCF’s End User Community includes over 140 top companies and startups that depend on cloud native
+            technologies and are committed to collaborative infrastructure development. The End User Community is an
+            active participant in key technology decisions by CNCF-hosted projects.
+
+            Dave Zolotusky of Spotify and Alena Prokharchyk of Apple are the End User representatives to the Technical
+            Oversight Committee.
+
+        </p>
+        <ul class="cncf-items">
+            <li>Kubernetes</li>
+            <li>Prometheus</li>
+            <li>Grpc</li>
+            <li>Fluentd</li>
+        </ul>
+    </div>
+    <div>
+        <iframe width="100%" height="564" src="https://www.youtube.com/embed/m4g0zd4E_bo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div style="background-color: lightblue; text-align: center; padding: 5px 0; border-radius: 10px;">
+        Copyright &copy 2020. All rights reserved.
+    </div>
+</body>
+
+</html>
