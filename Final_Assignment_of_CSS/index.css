@@ -1,0 +1,12 @@
+.top-bar{
+    background-color: #212529;
+    color: #f8f9fa;
+}
+
+.top-bar .fa-phone{
+    color: #198754
+}
+
+.carousel-item img{
+    height: 330px;
+}
