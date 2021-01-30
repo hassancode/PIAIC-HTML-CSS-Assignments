@@ -10,3 +10,20 @@
 .carousel-item img{
     height: 330px;
 }
+
+.adv-item{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: lightgray;
+    position: relative;
+}
+
+.adv-item > i{
+    position: absolute;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #198754;
+}
