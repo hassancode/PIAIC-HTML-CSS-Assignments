@@ -10,20 +10,58 @@
 .carousel-item img{
     height: 330px;
 }
+ .adv-header{
+    margin: 20px 0;
+     max-width: 500px;
+     text-align: center;
+ }
 
-.adv-item{
+ .adv-header > p{
+    font-size: 12px;
+    line-height: 1em;
+    color: rgb(210, 210, 210);
+ }
+.adv-item .round{
     width: 125px;
     height: 125px;
     border-radius: 50%;
-    background-color: lightgray;
+    background-color:rgb(230, 230, 230);
     position: relative;
 }
 
-.adv-item > i{
+.adv-item .round > i{
     position: absolute;
     font-size: 50px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #198754;
+}
+
+.adv-item .desc {
+    margin-top: 12px;
+    max-width: 125px;
+    text-align: center;
+}
+
+.adv-item .desc >p{
+    font-size: 12px;
+    line-height: 1em;
+    color: rgb(210, 210, 210);
+}
+
+.color-success{
+    color: #198754;
+}
+.aboud-us-header{
+    padding: 20px 0;
+}
+.about-us-desc{
+    width: 100%;
+    font-size: 12px;
+    padding: 0 30px 30px 30px;
+}
+
+.about-us-image{
+    width: 100%;
 }
